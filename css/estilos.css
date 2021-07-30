@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Mukta:wght@300&display=swap");
+.button1 {
+  background-color: #FFFF;
+  color: #F03D77;
+  border: 2px solid #F03D77;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.button1:hover {
+  background-color: #F03D77;
+  color: #FFFF;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+}
+
+.backgroundBlanco {
+  text-align: center;
+  color: #F03D77;
+  margin-top: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.backgroundRosa {
+  text-align: center;
+  color: #FFFF;
+  margin-top: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+/*------------ HEADER ------------*/
+#header {
+  padding: 0 !important;
+}
+
+#header .logo {
+  width: 100px;
+  margin-left: 60px;
+}
+
+#header .logo img {
+  width: 150px;
+}
+
+#header .bg-light {
+  background-color: #FFFF !important;
+}
+
+#header .navbar-light .navbar-nav .nav-link:hover {
+  color: #F03D77;
+}
+
+#header .navbar-light .navbar-nav .active .nav-link {
+  color: #F03D77;
+}
+
+@media all and (max-width: 768px) {
+  #header .nav-item, #header .dropdown {
+    margin-left: 12px;
+  }
+}
+
+/*------------ JAVA BOTON ------------*/
+.btn-secondary {
+  color: #F03D77;
+  background-color: #FFFF;
+  border-color: #FFFF;
+}
+
+.btn-secondary.dropdown-toggle {
+  color: #F03D77;
+  background-color: #FFFF;
+  border-color: #FFFF;
+}
+
+@media all and (max-width: 768px) {
+  .btn-secondary.dropdown-toggle {
+    padding-left: 0;
+  }
+}
+
+.btn-secondary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+  color: #F03D77;
+  background-color: #FFFF;
+  border-color: #FFFF;
+}
+
+.dropdown-item:active {
+  color: #F03D77;
+  background-color: #FFFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #F03D77;
+}
+
+/*------------ INICIO ------------*/
+@media all and (min-width: 678px) {
+  #inicio .bannerGloss {
+    height: 510px;
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #inicio .img-banner {
+    display: block;
+    margin: auto;
+    height: 510px;
+  }
+}
+
+/*------------ PRODUCTOS ------------*/
+#productos .carousel-caption a {
+  color: #F03D77;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#productos .carousel-caption {
+  margin-bottom: -30px;
+}
+
+#productos .carousel-control-next {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+#productos .carousel-control-prev {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+@media all and (max-width: 768px) {
+  #productos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media all and (min-width: 768px) {
+  #productos .carousel {
+    height: 550px;
+    width: 450px;
+  }
+}
+
+/*------------ MEDIOS DE PAGO ------------*/
+#mediosDePago {
+  background-color: #F03D77;
+  overflow: hidden;
+}
+
+@media all and (max-width: 768px) {
+  #mediosDePago .boxMedios {
+    text-align: center;
+  }
+}
+
+/*------------ COMPRAR ------------*/
+#carrito {
+  background-color: #FFFF;
+  overflow: hidden;
+}
+
+#carrito .feed {
+  height: 500px;
+  width: 360px;
+}
+
+#carrito .linkInstagram {
+  font-size: 20px;
+}
+
+#carrito a {
+  color: #F03D77;
+  text-decoration: underline;
+}
+
+@media all and (max-width: 768px) {
+  #carrito .linkInstagram {
+    font-size: 17px;
+  }
+}
+
+/*--------- CONTACTO ----------*/
+#contacto .formulario h3 {
+  margin-right: 70px;
+}
+
+@media all and (max-width: 576px) {
+  #contacto .formulario h3 {
+    font-size: 15px;
+    margin-right: 10px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+@media all and (max-width: 678px) {
+  #contacto .formulario h3 {
+    margin-right: 8px;
+  }
+}
+
+#contacto .formulario input {
+  width: 100%;
+}
+
+#contacto .logoIg a {
+  color: black;
+  text-decoration: none;
+}
+
+#contacto .logoIg a:hover {
+  color: #F03D77;
+}
+
+#contacto .espacio {
+  margin-top: 15px;
+}
+
+#contacto .form-control:focus {
+  border-color: #F03D77;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#contacto ion-icon {
+  font-size: 24px;
+}
+
+/*--------- FOOTER ----------*/
+#footer {
+  background-color: #F03D77;
+}
+
+#footer .correo {
+  background-color: #F03D77;
+  border: none;
+  border-bottom: 2px solid #FFFF;
+}
+
+#footer .correo::-webkit-input-placeholder {
+  color: #FFFF;
+}
+
+#footer .correo:-ms-input-placeholder {
+  color: #FFFF;
+}
+
+#footer .correo::-ms-input-placeholder {
+  color: #FFFF;
+}
+
+#footer .correo::placeholder {
+  color: #FFFF;
+}
+
+#footer .botonCorreo {
+  background-color: #F03D77;
+  border: none;
+  color: #FFFF;
+}
+
+#footer .formFooter {
+  text-align: center;
+  letter-spacing: 4px;
+  margin-top: 25px;
+  color: #FFFF;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=estilos.css.map */

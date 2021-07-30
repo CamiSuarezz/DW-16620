@@ -1,0 +1,235 @@
+body{
+    font: {
+        family: $fontSecundario ;
+        weight: $fwSecundario;
+    }
+}
+.backgroundBlanco{
+	text-align: center;
+	color: $colorPrimario;
+	margin-top: 40px;
+    font: {
+        family: $fontTitulo;
+        weight: $fwTitulo;
+        size: 30px;
+    }
+}
+.backgroundRosa{
+	text-align: center;
+	color: $colorSecundario;
+	margin-top: 40px;
+    font: {
+        family: $fontTitulo;
+        weight: $fwTitulo;
+        size: 30px;
+    }
+}
+h3{
+	font-size: 16px;
+}
+/*------------ HEADER ------------*/
+#header{
+    padding: 0 !important;
+    .logo{
+        width: 100px;
+        margin-left: 60px;
+        
+        img{
+            width: 150px;
+        }
+    }
+    .bg-light {
+        background-color: $colorSecundario!important;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: $colorPrimario;
+    }
+    .navbar-light .navbar-nav .active .nav-link{
+        color: $colorPrimario;
+    }
+    @media all and (max-width: 768px) {
+		.nav-item, .dropdown{
+            margin-left: 12px;
+        } 
+	} 
+}
+/*------------ JAVA BOTON ------------*/
+.btn-secondary{
+    color: $colorPrimario;
+    background-color: $colorSecundario;
+    border-color: $colorSecundario;
+    
+    &.dropdown-toggle{
+        color: $colorPrimario;
+        background-color: $colorSecundario;
+        border-color: $colorSecundario;
+
+        @media all and (max-width: 768px) {
+            padding-left: 0;
+        }
+    }
+
+    &:focus{
+        box-shadow: none;
+    }
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+    color: $colorPrimario;
+    background-color: $colorSecundario;
+    border-color: $colorSecundario;
+}
+.dropdown-item:active {
+    color: $colorPrimario;
+    background-color: $colorSecundario;
+ }
+
+.navbar-light .navbar-nav .nav-link {
+    color: $colorPrimario;
+}
+/*------------ INICIO ------------*/
+#inicio{
+    @media all and (min-width: 678px){
+        .bannerGloss{
+            height: 510px;
+            margin-bottom: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .img-banner{
+            display: block;
+            margin: auto;
+            height: 510px;
+        }
+    }
+}
+/*------------ PRODUCTOS ------------*/
+#productos{
+    .carousel-caption a{
+        color: $colorPrimario;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    .carousel-caption{
+        margin-bottom: -30px;
+    }
+    .carousel-control-next {
+        filter: invert(100%);
+    }
+    .carousel-control-prev {
+        filter: invert(100%);
+    }
+    @media all and (max-width: 768px) {
+		display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+	}
+
+    @media all and (min-width: 768px) {
+        .carousel{
+            height: 550px;
+            width: 450px;
+        }
+    }
+}
+/*------------ MEDIOS DE PAGO ------------*/
+#mediosDePago{
+	background-color: $colorPrimario;
+    overflow: hidden;
+
+    @media all and (max-width: 768px) {
+		.boxMedios {
+            text-align: center;
+        }
+	}
+}
+/*------------ COMPRAR ------------*/
+#carrito{
+	background-color: $colorSecundario;
+    overflow: hidden;
+    .feed{
+        height: 500px;
+        width: 360px;	
+    }
+    .linkInstagram{
+        font-size: 20px;
+    }
+        a{
+            color: $colorPrimario;
+            text-decoration: underline;
+        }
+    @media all and (max-width: 768px) {
+		.linkInstagram {
+            font-size: 17px;
+        }
+	}
+}
+/*--------- CONTACTO ----------*/
+#contacto{
+    .formulario{
+        h3{
+            margin-right: 70px;
+            @media all and (max-width: 576px) {
+                    font-size: 15px;
+                    margin-right: 10px;
+                    flex-wrap: nowrap;
+            }
+            @media all and (max-width: 678px) {
+                margin-right: 8px;
+            }
+        }
+        input{
+            width: 100%;
+        }
+    }
+    .logoIg{
+        a{
+            color: black;
+            text-decoration: none;
+
+            &:hover{
+                color: $colorPrimario;
+            }
+        }
+    }
+    .espacio{
+        margin-top: 15px;
+    }
+    .form-control:focus{
+        border-color: $colorPrimario;
+        box-shadow: none;
+    }
+    ion-icon {
+        font-size: 24px;
+    }
+}
+/*--------- FOOTER ----------*/
+#footer{
+    background-color: $colorPrimario;
+    .correo{
+        background-color: $colorPrimario;
+        border: none;
+        border-bottom: 2px solid $colorSecundario;
+
+        &::placeholder{
+            color: $colorSecundario;
+        }
+    }
+    .botonCorreo{
+        background-color: $colorPrimario;
+        border: none;
+        color: $colorSecundario;
+    }
+    .formFooter{
+        text-align: center;
+        letter-spacing: 4px;
+        margin-top: 25px;
+        color: $colorSecundario;
+    }
+}
+
+.btn:focus{
+    box-shadow: none;
+}

@@ -1,0 +1,23 @@
+$colorPrimario: #F03D77;
+$colorSecundario: #FFFF;
+$fontSecundario: 'Mukta', sans-serif;
+$fwSecundario: 300;
+$fontTitulo: 'Lato', sans-serif;
+$fwTitulo: 700;
+
+.button1{
+    background-color: $colorSecundario;
+    color: $colorPrimario;
+    border: 2px solid $colorPrimario;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition: 0.4s;
+
+    &:hover {
+        background-color: $colorPrimario;
+        color: $colorSecundario;
+      }
+  }
