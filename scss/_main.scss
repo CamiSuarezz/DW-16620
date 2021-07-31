@@ -204,6 +204,12 @@ h3{
     ion-icon {
         font-size: 24px;
     }
+    @media all and (min-width: 768px) {
+        .mapa {
+            height: 350px;
+            width: 500px;
+        }
+    }
 }
 /*--------- FOOTER ----------*/
 #footer{

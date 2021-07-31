@@ -269,6 +269,13 @@ h3 {
   font-size: 24px;
 }
 
+@media all and (min-width: 768px) {
+  #contacto .mapa {
+    height: 350px;
+    width: 500px;
+  }
+}
+
 /*--------- FOOTER ----------*/
 #footer {
   background-color: #F03D77;
