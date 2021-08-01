@@ -216,9 +216,21 @@ h3 {
   text-decoration: underline;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 678px) {
   #carrito .linkInstagram {
     font-size: 17px;
+  }
+  #carrito .feed {
+    height: 500px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  #carrito .linkInstagram {
+    font-size: 21px;
+  }
+  #carrito .feed {
+    height: 600px;
   }
 }
 

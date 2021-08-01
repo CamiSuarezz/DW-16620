@@ -160,9 +160,20 @@ h3{
             color: $colorPrimario;
             text-decoration: underline;
         }
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 678px) {
 		.linkInstagram {
             font-size: 17px;
+        }
+        .feed{
+            height: 500px;	
+        }
+	}
+    @media all and (max-width: 576px) {
+		.linkInstagram {
+            font-size: 21px;
+        }
+        .feed{
+            height: 600px;	
         }
 	}
 }
